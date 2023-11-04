@@ -66,4 +66,7 @@ require('lazy').setup({
         }
     },
 
+    -- Autopairs for brackets and quotation marks - lazy to type
+    { 'windwp/nvim-autopairs', event = "InsertEnter" }
+
 })
