@@ -36,6 +36,9 @@ require('lazy').setup({
         dependencies = { 'nvim-tree/nvim-web-devicons' },
     },
 
+    -- Vim+Tmux navigation between panes
+    { 'christoomey/vim-tmux-navigator' },
+
     -- Treesitter and undotree (best thing ever)
     { 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate', },
     { 'nvim-treesitter/playground' },
