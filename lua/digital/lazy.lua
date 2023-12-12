@@ -42,6 +42,7 @@ require('lazy').setup({
     -- Treesitter and undotree (best thing ever)
     { 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate', },
     { 'nvim-treesitter/playground' },
+    { 'nvim-treesitter/nvim-treesitter-context' },
     { 'mbbill/undotree' },
 
     -- LSP confguration
