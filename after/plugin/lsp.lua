@@ -69,7 +69,9 @@ require('mason-lspconfig').setup()
 local servers = {
     -- clangd = {},
     -- gopls = {},
-    pyright = {},
+    -- pyright = { filetypes = {'python'} }, Does not work for some reason - could not figure out why
+    -- only offers snipets and nothing else using python-lsp-server instead
+    pylsp = {},
     rust_analyzer = {},
     tsserver = {},
     bashls = {},
